@@ -45,7 +45,7 @@ while(choice == 'y'):
                     guessed_word[i]=original_word[i]
 
         else:
-            #if gussed_leete is not in original_word , prompt user for wring choosen letter
+            #if gussed_letter is not in original_word , prompt user for wrong choosen letter
             print("You Guessed wrong letter")
             wrong_list.append(guessed_letter)
 
